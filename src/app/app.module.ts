@@ -11,9 +11,10 @@ import { SucessoCadastroComponent } from './sucesso-cadastro/sucesso-cadastro.co
 import { FormsModule } from '@angular/forms';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
 import { ValidarMaiorIdadeDirective } from './directives/maior-idade.directive';
+import { ValidandoCepDirective } from './directives/validando-cep.directive';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, ValidarMaiorIdadeDirective],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, ValidarMaiorIdadeDirective, ValidandoCepDirective],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
